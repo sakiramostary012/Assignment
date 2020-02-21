@@ -1,0 +1,166 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    color: #16a085;
+    font-weight: bolder;
+    text-shadow: 2px 2px #ffeaa7;
+}
+p{
+    color: #636e72;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    padding-left: 1%;
+    
+}
+.half-width img{
+    border-radius: 50%;
+    height: 350px;
+    margin-left: 450px;
+    margin-top: -160px;
+}
+.half-width img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+.contact-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#16a085,#2ecc71);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: maroon;
+    font-weight: 800;
+    margin-right: 400px;
+    margin-bottom: 450px;
+}
+.header-area{
+    
+    background-repeat: no-repeat;
+}
+.middle-area img{
+    border-radius: 50%;
+    height: 350px;
+    margin-right: 400px;
+    width: 430px;
+    margin-left: 100px;
+    margin-top: 150px;
+
+}
+.middle-area img:hover {
+    
+    transform: rotateY(180deg);
+
+}
+.middle-area-content{
+    margin-left: 600px;
+    margin-top: -300px;
+    
+}
+.bio{
+    color: black;
+    font-size: 28px;
+    font-weight: 900;
+}
+.cv-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#16a085,#2ecc71);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: maroon;
+    font-weight: 800;
+}
+.work-tittle{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 300px;
+    color: #16a085;
+    text-shadow: 2px 2px #55E6C1;
+}
+.images-area{
+    width: 100%;
+}
+#work-1{
+    width: 23%;
+    height: 350px;
+    margin-left: 150px;
+    float: left;
+}
+#work-2{
+    width: 23%;
+    height: 400px;
+    float: left;
+    margin-left: 40px;
+}
+#work-3{
+    width: 23%;
+    height: 350px;
+    float: left;
+    margin-left: 40px;
+}
+.img:hover {
+    transform: scale(1.5);
+}
+.last-area{
+    margin-top: 600px;
+    text-align: center;
+}
+#headline{
+    font-size: 50px;
+    color: #e74c3c;
+    text-shadow: 2px 2px #55E6C1;
+}
+#ceo{
+    color: #636e72;
+}
+#peragraph{
+    color:#576574;
+    font-weight: 450;
+}
+.box-area{
+    width: 50%;
+    height: 100px;
+    background-color: #27ae60;
+    margin-left: 350px;
+    padding: 5px;
+    border-radius: 15px;
+}
+#contact{
+    color: #182C61;
+    font-size: 14px;
+}
+#mail-contact{
+    color: #182C61;
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer-area{
+    text-align: center;
+    margin-top: 170px;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+#top-area{
+    background-image: url(images/header-bg.png);
+    width: 100%;
+    height: 350px;
+}
+#top-middle-area{
+    background-image: url(images/biography-bg.png);
+    width: 100%;
+
+}
+#latest-work{
+    background-image: url(images/latest-work-bg.png);
+    width: 100%;    
+}
+#last-area{
+    background-image: url(footer-bg.png);
+    width: 100%;  
+}
+
+
